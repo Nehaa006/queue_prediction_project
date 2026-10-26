@@ -1,0 +1,7 @@
+Model Name,Model Type,MAE (min),RMSE (min),MSE,Latency (s)
+1D-TCN (Proposed),Temporal CNN,0.0656,0.0827,0.0068,0.002137
+LSTM-only,Recurrent Network,0.056,0.0661,0.0044,0.00102
+CNN-only,1D Convolutional,0.0988,0.1124,0.0126,0.000377
+Density-Feature MLP,Density MLP,0.1182,0.141,0.0199,8.1e-05
+Linear Regression,ML Baseline,0.0688,0.0809,0.0065,0.00016
+Naive Baseline,Heuristic Control,0.1007,0.1032,0.0107,0.0

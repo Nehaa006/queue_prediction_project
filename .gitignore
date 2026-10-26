@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyTorch / Machine Learning Artifacts (Model Weights)
+*.pth
+*.pt
+*.onnx
+*.safetensors
+models/*.pth
+models/*.pt
+
+# Raw & Cached Datasets
+data/
+datasets/
+MOT17/
+*.zip
+*.tar
+*.gz
+*.csv
+!paper_outputs/*.csv
+
+# Project Output Exclusions (Keep paper_outputs committed)
+# Note: paper_outputs/ figures and CSVs are explicitly tracked below
+!paper_outputs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# IDEs & Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and Checkpoints
+*.log
+runs/
+wandb/
+tensorboard/

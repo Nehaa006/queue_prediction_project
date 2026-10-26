@@ -1,0 +1,7 @@
+Model Name,Overall Acc (%),Accuracy @ ±5s (%),Accuracy @ ±10s (%)
+1D-TCN (Proposed),37.68,67.79,94.63
+LSTM-only,46.82,85.91,98.66
+CNN-only,6.16,44.3,89.93
+Density-Feature MLP,0.0,40.27,67.79
+Linear Regression,34.67,61.07,98.66
+Naive Baseline,4.35,12.08,100.0
